@@ -24,6 +24,7 @@ function Time() {
     //       hour = hour - 12;
     //       }
     //   }
+    
     hour = update(hour);
     minute = update(minute);
     second = update(second); 
