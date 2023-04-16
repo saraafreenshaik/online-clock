@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(158, 46, 9);
+    /* border: 8px outset;
+    border-color: aliceblue yellow orange red */
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+section{
+    background-color: rgb(244, 165, 139);
+    width:700px;
+    height: 400px;
+    border: 10px inset;
+    border-radius: 10px;
+    margin: 100px;
+    margin-left: 300px;
+    border-color: rgb(248, 241, 244) rgb(182, 249, 233) rgb(165, 225, 251) rgb(251, 156, 194);
+}
+#digital-clock{
+    margin: auto;
+    margin-top: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:4rem;
+    color: aliceblue;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(53, 39, 42, 0.6),0 6px 20px 0 rgb(56, 36, 41)
+}
