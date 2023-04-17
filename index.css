@@ -9,20 +9,30 @@ section{
     background-color: rgb(244, 165, 139);
     width:700px;
     height: 400px;
-    border: 10px inset;
-    border-radius: 10px;
-    margin: 100px;
-    margin-left: 300px;
+    border: 0.6em inset;
+    border-radius: 1em;
+    margin: 10em;
+    padding-top: 0.8em;
+    margin-left: 20em;
+    margin-right: 20em;
     border-color: rgb(248, 241, 244) rgb(182, 249, 233) rgb(165, 225, 251) rgb(251, 156, 194);
 }
 #digital-clock{
     margin: auto;
-    margin-top: 140px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 2.2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
     font-family:'Times New Roman', Times, serif;
     font-size:4rem;
     color: aliceblue;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(53, 39, 42, 0.6),0 6px 20px 0 rgb(56, 36, 41);
+    box-shadow: 0 4px 8px rgba(53, 39, 42, 0.6),0 6px 20px 0 rgb(56, 36, 41)
+}
+@media screen and (max-width:700px)
+{
+    #digital-clock{
+        width: 80%;
+        padding: 0;
+    }
+        
 }
